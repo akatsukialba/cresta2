@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name=“description” content=“”>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <!-- サイトタイトル -->
+  <title>デモサイト5｜お問い合わせ</title>
+  <!-- Googleフォント -->
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&family=Noto+Serif:ital,wght@0,700;1,700&display=swap" rel="stylesheet">
+  <!-- CSS読み込み -->
+  <link rel="stylesheet" href="../css/contact.css">
+  <!-- jQuery読み込み -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+
+<body>
+<header class="header">
+  <div class="header-inner">
+    <h1 class="site-ttl"><a href="../index.html">Cresta Design</a></h1>
+    <nav class="header-nav">
+      <ul class="header-list">
+        <li class="header-item"><a href="#">Concept</a></li>
+        <li class="header-item"><a href="#">Service</a></li>
+        <li class="header-item"><a href="#">Works</a></li>
+        <li class="header-item"><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+
+    <button class="burger-btn">
+      <span class="bar bar_top"></span>
+      <span class="bar bar_mid"></span>
+      <span class="bar bar_bottom"></span>
+    </button><!-- /.burger-btn -->
+  </div><!-- /.header-innner -->
+</header>
+
+<main>
+  <div class="contact-mv">
+    <h1 class="contact-mv-ttl">Contact</h1>
+    <div class="contact-mv-bottom">Contact us</div><!-- /.page-ttl-bottom -->
+  </div><!-- /.page-ttl-wrapper -->
+
+  <form action="program.php" method="POST" class="form">
+    <ul class="form-list">
+      <li class="form-item">
+        <label for="" class="form-label">お問い合わせ内容</label>
+        <ul class="checkbox-list">
+          <li class="checkbox-item">
+            <input type="checkbox" class="checkbox" id="ducument">
+            <label for="ducument">資料請求</label>
+          </li>
+          <li class="checkbox-item">
+            <input type="checkbox" class="checkbox" id="phone">
+            <label for="phone">お電話でのご相談</label>
+          </li>
+          <li class="checkbox-item">
+            <input type="checkbox" class="checkbox" id="application">
+            <label for="application">申し込み</label>
+          </li>
+        </ul>
+      </li>
+      <li class="form-item">
+        <label for="" class="form-label">担当者名</label>
+        <input type="text" class="input-txt">
+      </li>
+      <li class="form-item">
+        <label for="" class="form-label">電話番号</label>
+        <input type="text" class="input-txt">
+      </li>
+      <li class="form-item">
+        <label for="" class="form-label">メールアドレス</label>
+        <input type="text" class="input-txt">
+      </li>
+      <li class="form-item">
+        <label for="" class="form-label">その他</label>
+        <textarea name="" id="" cols="30" rows="10" class="textarea"></textarea>
+      </li>
+    </ul>
+    <input type="submit" value="Submit" class="submit-btn">
+  </form>
+</main>
+
+<footer class="footer">
+  <small>&copy;cresta.design all rights reserved</small>
+</footer>
+
+<script src="../js/script.js"></script>
+</body>
+</html>
